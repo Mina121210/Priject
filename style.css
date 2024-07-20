@@ -1,0 +1,519 @@
+
+*{
+    color:black;
+}
+
+body{    
+background:white;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+
+.container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+padding: 15px;
+box-sizing: border-box;
+
+}
+
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container{
+        width: 970px; 
+  }
+}
+
+
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+  }
+}
+
+
+.header span{
+    border-radius: 50px;
+    border: solid;
+    background:  rgb(196, 73, 155);
+    border-color:  rgb(196, 73, 155);
+    padding: 10px;
+    color: white;
+}
+
+
+.header img{
+   
+    width: 80px;
+    height: 20px;
+    padding-top: 10px;
+}
+
+
+
+.header{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.header span:hover{
+    border-radius: 50px;
+    border: solid;
+    color: black;
+    background: white;
+    border-color: black;
+    padding: 10px;
+}
+
+
+
+.progress{
+    text-align: center;
+  
+}
+
+
+.progress h1{
+   color: black;
+  
+}
+
+
+.progress p{
+    color: black;
+   
+ }
+ 
+
+
+.progress button{
+   
+color: white;
+border-color:  rgb(196, 73, 155);
+background:  rgb(196, 73, 155) ;
+padding: 10px;
+border-radius: 60px;
+
+}
+
+
+.progress button:hover{
+   
+    color: black;
+   background: transparent;
+    padding: 10px;
+    border-radius: 60px;
+    border-color:   rgb(196, 73, 155);
+   
+    }
+
+
+    .progres img{
+   
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+        
+        }
+
+
+
+        .progre{
+            display: flex;
+           justify-content: center;
+           gap: 160px;
+            padding: 30px;
+            padding-top: 110px;
+        }
+
+        @media (max-width:768px){
+
+        .progre{
+            display: block;
+           justify-content: center;
+           gap: 160px;
+           text-align: center;
+            padding: 30px;
+          
+            padding-top: 110px;
+        }
+
+         }
+
+        .progre h1{
+           color: black;
+            font-size: 60px;
+            line-height: 14px;
+        }
+
+
+        .progre p{
+             color: gray;
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+.x{
+
+padding: 50px;
+width: 50%;
+
+}
+
+
+@media (max-width:768px){
+
+    
+.x{
+
+    text-align: center;
+   width: auto;
+    
+    }
+    
+
+ }
+
+
+
+
+
+
+
+
+
+ .progr{
+      padding-top: 110px;
+    display: flex;
+    gap: 40px;
+ }
+
+ @media (max-width:768px){
+
+    .progr{
+       
+      display: block;
+      text-align: center;
+   
+      padding: 40px;
+   }
+
+ }
+
+
+
+ .progr img{
+
+width: 50%;
+
+ }
+
+
+ @media (max-width:768px){
+
+
+    .progr img{
+
+        width: 100%;
+        
+         }
+        
+
+ }
+
+
+
+
+ .progr p{
+
+color: gray;
+
+ }
+
+.prog img{
+    width: 100%;
+    padding-top: 120px;
+}
+
+@media (max-width:768px){
+
+    
+.prog img{
+    width: 100%;
+    padding-top: 100px;
+}
+        
+         }
+    
+    
+
+.progg{
+      width: 50%;
+      padding-top: 170px;
+    }
+
+
+
+    @media (max-width:768px){
+
+.progg{
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+  }
+    
+     }
+
+
+.alll{
+    display: flex;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+
+
+@media (max-width:768px){
+
+    .alll{
+        display: block;
+        gap: 40px;
+        padding-top: 80px;
+    }
+    
+ }
+
+
+.ph img{
+width: 100%;
+padding-top: 120px;
+}
+
+.as{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+@media (max-width:768px){
+
+    
+.as{
+    margin-top: 30px;
+    display: block;
+    gap: 20px;
+
+}
+    
+ }
+
+
+.boz{
+
+width: 100%;
+margin-top: 150px;
+padding: 40px;
+
+}
+
+
+@media (max-width:768px){
+
+  
+.boz{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    }  
+    
+.boz p{
+    font-size: 420px;
+    }
+    
+             }
+
+.boz p{
+font-size: 10px;
+}
+
+@media (max-width:768px){
+        
+    .boz p{
+        font-size: 15px;
+        }
+        
+                 }
+.a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.a button{
+    border-radius: 50px;
+    border: solid;
+    width: 200px;
+    background:  rgb(196, 73, 155);
+    border-color: rgb(196, 73, 155);
+    padding: 10px;
+    color: black;
+}
+ .a button:hover{
+    border-radius: 50px;
+    border: solid;
+    background: white;
+    border-color:  rgb(196, 73, 155);
+    padding: 10px;
+   
+ }
+.q img{
+    background: black;
+    width: 40px;
+}
+ .q{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+ }
+
+ .aa{
+    padding: 40px;
+ }
+
+
+
+.aa p{
+    padding-top: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+
+.aa a{
+    color: black;
+    display: flex;
+    gap: 20px;
+   text-decoration: none;
+   
+}
+
+.cal{
+   
+    gap: 100px;
+}
+
+
+.cal img{
+   
+ background: black;
+}
+
+
+ .aaaa{
+
+    padding: 30px;
+ }
+
+
+ .aaaa p{
+   padding-top: 20px;
+   color: black;
+   padding-bottom: 20px;
+ }
+
+
+ .aaaa h1{
+    color: black;
+     }
+
+     .inp{
+        display: flex;
+        gap: 20px;
+     }
+
+
+ .aaaa input{
+
+    border-radius: 10px;
+    border: solid;
+    width: 200px;
+    background:  rgb(196, 73, 155);
+    border-color: rgb(196, 73, 155);
+    padding: 9px;
+    color: black;
+    font-size: 15px;
+   
+ }
+
+ input::placeholder{
+    color: white;
+ }
+ .aaaa button{
+    background: rgb(196, 73, 155);
+    border-color:  rgb(196, 73, 155);
+    border-radius: 10px;
+    padding: 6px;
+    width: 110px;
+    font-size: 14px;
+    font-weight: bold;
+    color: wheat;
+
+ }
+
+ 
+ .aaaa button:hover{
+
+    background: black;
+    color: wheat;
+    border-color:  white;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 12px;
+ }
+
+ .l{
+    display: flex;
+  
+
+ }
+
+
+
+ @media (max-width:768px){
+
+    .l{
+        display: block;
+      
+    
+     }
+    
+ }
+
+.end{
+    background:black ;
+    padding: 1px;
+    text-align: center;
+}
+.end h1{
+    color: white;
+    font-size: 20px;
+}
+.end span{
+    color: orange;
+    font-size: 30px;
+}
